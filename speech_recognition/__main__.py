@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import random
+
 r = sr.Recognizer()
 m = sr.Microphone()
 keepGoing=True
