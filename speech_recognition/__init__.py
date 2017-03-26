@@ -140,6 +140,7 @@ class Microphone(AudioSource):
                     input=True,  # stream is an input stream
                 )
             )
+            print("there was a stream")
         except:
             self.audio.terminate()
             raise
